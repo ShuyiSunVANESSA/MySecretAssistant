@@ -1,2 +1,3 @@
-# Byte-compiled / optimized / DLL files
+# Cache
 period_registry/__pycache__/*
+__pycache__/*

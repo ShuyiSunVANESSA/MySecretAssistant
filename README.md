@@ -37,12 +37,12 @@ Subsequent response definitions will only detail the expected value of the `data
     {
         "start_date": "2020/01/01",
         "duration":  "5",
-        "created_date": "yyyy/mm/dd"
+        "created_date": "2020/06/01"
     },
     {
         "start_date": "2020/02/01",
         "duration":  "5",
-        "created_date": "yyyy/mm/dd"
+        "created_date": "2020/06/01"
     },
 ]
 ```

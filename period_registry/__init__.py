@@ -6,7 +6,7 @@ from flask import Flask
 from flask_restful import Api
 
 # Import endpoints
-from periods import Periods
+from period_registry.endpoints.periods import Periods
 
 # Create and instance of Flask
 app = Flask (__name__)

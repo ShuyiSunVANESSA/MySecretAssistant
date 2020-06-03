@@ -1,3 +1,12 @@
+# HOW TO START
+Install docker https://docs.docker.com/get-docker/
+Navigate to the repository 'cd MySecretAssistant'
+Bring the application up by 'docker-compose up'
+
+## Test locally
+Try hitting this endpoint 'http://localhost:5000'
+Try hitting this endpoint 'http://localhost:5000/periods'
+
 # Device Registry Service
 
 ## Usage

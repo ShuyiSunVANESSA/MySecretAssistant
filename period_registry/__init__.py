@@ -1,10 +1,18 @@
-# Import the framework
-from flask import Flask
 import markdown
 import os
 
+# Import the framework
+from flask import Flask
+from flask_restful import Api
+
+# Import endpoints
+from periods import Periods
+
 # Create and instance of Flask
 app = Flask (__name__)
+
+# Create the API
+api = Api(app)
 
 @app.route("/")
 def index():
@@ -19,3 +27,5 @@ def index():
 
         # Convert to HTML
         return markdown.markdown(content)
+
+api.add_resource(Periods, '/periods')

@@ -1,4 +1,4 @@
-# Device Registry Service
+# Period Tracking Service
 
 ## Usage
 
@@ -17,7 +17,7 @@ Subsequent response definitions will only detail the expected value of the `data
 
 **Definition**
 
-`GET /period`
+`GET /periods`
 
 **Response**
 

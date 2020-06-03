@@ -12,7 +12,6 @@ def index():
 
     # Open the README file
     readme_file = os.path.dirname(app.root_path) + '/README.md'
-    print("HIHIHIHIHI", readme_file)
     with open(readme_file, 'r') as markdown_file:
 
         # Read the content of the file

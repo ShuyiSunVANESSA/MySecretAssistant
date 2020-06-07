@@ -121,4 +121,3 @@ Subsequent response definitions will only detail the expected value of the `data
 
 - `404 Not Found` if the device does not exist
 - `204 No Content` on success
->>>>>>> d62dec4a03db2c5567a1538c048300c8d2ca2a12

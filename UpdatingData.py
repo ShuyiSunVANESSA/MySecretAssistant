@@ -19,18 +19,12 @@ print("DB connected")
 
 cur = conn.cursor()
 cur.execute("""
-
-CREATE TABLE "User"
-(
-ID VARCHAR(40) PRIMARY KEY NOT NULL,
-START_DATE DATE NOT NULL,
-DURATION INT NOT NULL,
-CREATED_DATE DATE NOT NULL
-)
-
+UPDATE "user" SET AVG_PERIOD_DURATION = 30 WHERE ID = 'v'
 """)
 
 conn.commit()
-print("table created scuuessfully")
+
+print("Data Updated scuuessfully")
+print("Total rows affected " + str(cur.rowcount))
 
 conn.close()
